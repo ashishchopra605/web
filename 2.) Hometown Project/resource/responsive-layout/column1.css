@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.box{
+    width: 100%;
+}
+@media screen and (min-width: 450px){
+    .green, .lightblue{
+    width: 50%;
+}
+}
+@media screen and (min-width: 550px){
+    .darkblue, .lightblue{
+    width: 50%;
+}
+    .green, .red, .orange{
+    width: 33.33333%;
+}
+}
+@media screen and (min-width: 700px){
+    .container{
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.box{
+    width: 100%;
+}
+
+@media screen and (min-width: 500px){
+    .darkblue{
+    width: 50%;
+}
+    #container2{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 600px){
+    .darkblue{
+    width: 25%;
+    order: 1;
+    }
+    #container2{
+        width: 50%;
+    }
+    .red{
+        width: 25%;
+        order: -1;
+    }
+}

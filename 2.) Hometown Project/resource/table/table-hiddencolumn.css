@@ -1,0 +1,21 @@
+body{
+    margin: 1em;
+}
+.longname{
+    display: none;
+}
+.innings{
+    display: none;
+    border-spacing: 25px;
+}
+@media screen and (min-width: 500px){
+    .shortname{
+        display: none;
+    }
+    .longname{
+        display: inline;
+    }
+    .innings{
+        display: inline;
+    }
+}
